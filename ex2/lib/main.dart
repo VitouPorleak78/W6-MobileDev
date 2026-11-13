@@ -7,7 +7,6 @@ void main() {
   ));
 }
 
-// Enum for Button Types & Colors
 enum ButtonType {
   primary(Colors.blue),
   secondary(Colors.green),
@@ -17,13 +16,11 @@ enum ButtonType {
   const ButtonType(this.color);
 }
 
-// Enum for Icon Position
 enum IconPosition {
   left,
   right,
 }
 
-// Reusable Stateless Widget
 class CustomButton extends StatelessWidget {
   final String label;
   final IconData icon;
